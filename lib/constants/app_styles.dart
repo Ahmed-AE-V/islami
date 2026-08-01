@@ -17,4 +17,9 @@ class AppStyles {
     fontWeight: .w700,
     color: AppColors.gold,
   );
+  static const TextStyle navLabelStyle = TextStyle(
+    fontSize: 12,
+    fontWeight: .w700,
+    color: AppColors.white,
+  );
 }

@@ -16,4 +16,9 @@ class AppStrings {
   static const String boardingNextButton = "Next";
   static const String boardingbackButton = "Back";
   static const String boardingDoneButton = "Finish";
+  static const String quranLabel = "Quran";
+  static const String hadethLabal = "Hadeth";
+  static const String sebhaLabel = "Sebha";
+  static const String radioLabel = "Radio";
+  static const String timeLabel = "Time";
 }
