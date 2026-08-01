@@ -1,0 +1,19 @@
+class AppStrings {
+  static const String boarding1Title = "Welcome To Islami App";
+  static const String boarding1Body = "";
+  static const String boarding2Title = "Welcome To Islami";
+  static const String boarding2Body =
+      "We Are Very Excited To Have You In Our Community";
+  static const String boarding3Title = "Reading the Quran";
+  static const String boarding3Body =
+      "Read, and your Lord is the Most Generous";
+  static const String boarding4Title = "Bearish";
+  static const String boarding4Body =
+      "Praise the name of your Lord, the Most High";
+  static const String boarding5Title = "Holy Quran Radio";
+  static const String boarding5Body =
+      "You can listen to the Holy Quran Radio through the application for free and easily";
+  static const String boardingNextButton = "Next";
+  static const String boardingbackButton = "Back";
+  static const String boardingDoneButton = "Finish";
+}
