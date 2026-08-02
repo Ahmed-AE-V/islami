@@ -22,4 +22,9 @@ class AppStyles {
     fontWeight: .w700,
     color: AppColors.white,
   );
+  static const TextStyle sebhaTextStyle = TextStyle(
+    fontSize: 36,
+    fontWeight: .w700,
+    color: AppColors.white,
+  );
 }

@@ -21,4 +21,10 @@ class AppStrings {
   static const String sebhaLabel = "Sebha";
   static const String radioLabel = "Radio";
   static const String timeLabel = "Time";
+  static const String sebhaText = "سَبِّحِ اسْمَ رَبِّكَ الأعلى ";
+  static const String tasabeh1 = "سبحان الله";
+  static const String tasabeh2 = "الحمد الله";
+  static const String tasabeh3 = "لا اله الا الله";
+  static const String tasabeh4 = "الله اكبر";
+  static const String tasabeh5 = "استغفر الله";
 }
