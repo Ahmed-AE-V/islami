@@ -27,4 +27,6 @@ class AppStrings {
   static const String tasabeh3 = "لا اله الا الله";
   static const String tasabeh4 = "الله اكبر";
   static const String tasabeh5 = "استغفر الله";
+  static const String radioBgKey = "radioBG";
+  static const String sebhaBgkey = "sebhaBG";
 }

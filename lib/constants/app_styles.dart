@@ -27,4 +27,14 @@ class AppStyles {
     fontWeight: .w700,
     color: AppColors.white,
   );
+  static const TextStyle radioSelectedTabStyle = TextStyle(
+    fontSize: 16,
+    fontWeight: .w400,
+    color: AppColors.black,
+  );
+  static const TextStyle radioNotSelectedTabStyle = TextStyle(
+    fontSize: 16,
+    fontWeight: .w700,
+    color: AppColors.white,
+  );
 }
