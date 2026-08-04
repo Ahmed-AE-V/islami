@@ -7,7 +7,7 @@ import 'package:islami/widgets/tabs_bg.dart';
 
 class RadioTabUi extends StatelessWidget {
   const RadioTabUi({super.key});
-
+  /////////////////////############# ONLY UI NO LOGIC ##########\\\\\\\\\\\\\\\\\\\\
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -21,11 +21,13 @@ class RadioTabUi extends StatelessWidget {
             left: MediaQuery.of(context).size.width * 0.05,
             right: MediaQuery.of(context).size.width * 0.05,
             bottom: 0,
+            /////////////////////############# ONLY UI NO LOGIC ##########\\\\\\\\\\\\\\\\\\\\
             child: ListView.builder(
               padding: EdgeInsets.zero,
               itemCount: 6,
               itemBuilder: (context, index) =>
                   RadioPlayer(radioName: AppStrings.radioNameEx),
+              /////////////////////############# ONLY UI NO LOGIC ##########\\\\\\\\\\\\\\\\\\\\
             ),
           ),
         ],
