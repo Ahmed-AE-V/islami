@@ -6,6 +6,7 @@ import 'package:islami/constants/app_strings.dart';
 import 'package:islami/constants/app_styles.dart';
 import 'package:islami/screens/main_layout/ui/main_layout_screen.dart';
 import 'package:islami/screens/on_boarding_screen/widgets/braoding_widget.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});
@@ -16,7 +17,13 @@ class OnBoardingScreen extends StatefulWidget {
 
 class _OnBoardingScreenState extends State<OnBoardingScreen> {
   final boardKey = GlobalKey<IntroductionScreenState>();
+  Future<void> completeOnboarding() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('onboarding_complete', true);
+  }
+
   void _onDone(BuildContext context) {
+    completeOnboarding();
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(builder: (_) => const MainLayoutScreen()),
     );

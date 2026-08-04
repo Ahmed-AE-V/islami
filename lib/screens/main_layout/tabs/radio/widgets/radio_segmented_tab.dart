@@ -27,11 +27,21 @@ class _RadioSegmentedTabState extends State<RadioSegmentedTab> {
         children: {
           0: Padding(
             padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-            child: Text('Radio', style: AppStyles.radioNotSelectedTabStyle),
+            child: Text(
+              'Radio',
+              style: _selectedIndex == 0
+                  ? AppStyles.radioSelectedTabStyle
+                  : AppStyles.radioNotSelectedTabStyle,
+            ),
           ),
           1: Padding(
             padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-            child: Text('Reciters', style: AppStyles.radioSelectedTabStyle),
+            child: Text(
+              'Reciters',
+              style: _selectedIndex == 1
+                  ? AppStyles.radioSelectedTabStyle
+                  : AppStyles.radioNotSelectedTabStyle,
+            ),
           ),
         },
         onValueChanged: (int? value) {

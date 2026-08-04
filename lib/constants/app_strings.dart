@@ -29,4 +29,5 @@ class AppStrings {
   static const String tasabeh5 = "استغفر الله";
   static const String radioBgKey = "radioBG";
   static const String sebhaBgkey = "sebhaBG";
+  static const String radioNameEx = "Ibrahim Al-Akdar";
 }

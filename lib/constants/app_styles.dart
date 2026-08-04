@@ -37,4 +37,9 @@ class AppStyles {
     fontWeight: .w700,
     color: AppColors.white,
   );
+  static const TextStyle radioPlayerStyle = TextStyle(
+    fontSize: 20,
+    fontWeight: .w700,
+    color: AppColors.black,
+  );
 }

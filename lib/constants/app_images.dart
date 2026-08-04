@@ -8,4 +8,5 @@ class AppImages {
   static const String sebhaBG = "assets/images/sebha_bg.png";
   static const String sebha = "assets/images/Sebha.png";
   static const String radioBG = "assets/images/radio_bg.png";
+  static const String radioPLayerBG = 'assets/images/radio_player_bg.png';
 }
